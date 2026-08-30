@@ -1,0 +1,111 @@
+{
+  "restaurant": {
+    "name": "Demo Restaurant",
+    "slug": "demo-restaurant",
+    "tagline": null,
+    "contact_phone": "+917235973436",
+    "contact_email": "satyam1998.1998@gmail.com",
+    "whatsapp_number": "+917235973436",
+    "address": "Roadways Lalganj",
+    "google_map_link": null,
+    "google_map_embed_link": null,
+    "food_type": "VEG",
+    "logo_url": "http://127.0.0.1:8000/media/restaurants/logos/WhatsApp_Image_2026-07-24_at_1.09.56_AM.jpeg",
+    "proprietor_name": null,
+    "proprietor_photo_url": null,
+    "cover_image_url": "http://127.0.0.1:8000/media/restaurants/covers/4afd0645-1727-4573-ad1b-b4bafbd81969.png",
+    "cover_images": [
+      {
+        "id": 1,
+        "image_url": "http://127.0.0.1:8000/media/restaurants/covers/4afd0645-1727-4573-ad1b-b4bafbd81969.png",
+        "title": "Title",
+        "description": "Description",
+        "sequence_number": 0
+      },
+      {
+        "id": 2,
+        "image_url": "http://127.0.0.1:8000/media/restaurants/covers/satyam-seth-labs-retro-logo-under-1mb.jpg",
+        "title": "Title 2",
+        "description": "Desc 2",
+        "sequence_number": 0
+      }
+    ],
+    "business_hours": {
+      "monday": {
+        "open": "12:00",
+        "close": "23:00"
+      },
+      "tuesday": {
+        "open": "12:00",
+        "close": "23:00"
+      },
+      "wednesday": {
+        "open": "12:00",
+        "close": "23:00"
+      },
+      "thursday": {
+        "open": "12:00",
+        "close": "23:00"
+      },
+      "friday": {
+        "open": "12:00",
+        "close": "23:30"
+      },
+      "saturday": null,
+      "sunday": {
+        "open": "11:00",
+        "close": "22:00"
+      }
+    },
+    "social_links": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com"
+    }
+  },
+  "theme": {
+    "name": "cyborg",
+    "settings": {}
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "Starter",
+      "display_order": 0,
+      "items": [
+        {
+          "id": 1,
+          "name": "Starter 1",
+          "description": "",
+          "price": "200.00",
+          "image_url": "http://127.0.0.1:8000/media/menu/items/WhatsApp_Image_2026-07-19_at_2.19.09_AM.jpeg",
+          "food_type": "VEG",
+          "tags": [],
+          "is_available": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Main Course",
+      "display_order": 1,
+      "items": []
+    }
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "image_url": "http://127.0.0.1:8000/media/restaurants/gallery/WhatsApp_Image_2026-07-19_at_2.19.09_AM.jpeg",
+      "caption": "Caption 1"
+    }
+  ],
+  "offers": [
+    {
+      "id": 1,
+      "title": "10% OFF",
+      "description": "",
+      "discount_percentage": "10.00",
+      "coupon_code": "ASP",
+      "image_url": "http://127.0.0.1:8000/media/restaurants/offers/WhatsApp_Image_2026-07-19_at_2.19.09_AM.jpeg"
+    }
+  ]
+}
